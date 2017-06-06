@@ -41,7 +41,7 @@ class wechatCallbackapiTest
     {
 		//get post data, May be due to the different environments
 		$postStr = file_get_contents('php://input');
-        // $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
+        file_put_contents("1.txt", $postStr, FILE_APPEND);
       	//extract post data
         
 
@@ -148,7 +148,7 @@ EOT;
 EOT;
                     $time = time();
                     $msgtype = 'image';
-                    $mediaid = 'wKZPWtjIYPDZypx6tDkJDEs4JkLOQdgRM4u700VjRthfV1h6YCpLqM4kmuESfyBc';
+                    $mediaid = 'DOH-ebpTxRg8STXJAz7IBXedqR_5x5d47ZJhBRCvIrje2OWQTvX8HnXkzD0IhlOw';
 
                     $retStr = sprintf($textTpl, $fromusername, $tousername, $time, $msgtype, $mediaid);
                     echo $retStr;
