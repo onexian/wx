@@ -1,0 +1,14 @@
+<xml><ToUserName><![CDATA[gh_b885775befc4]]></ToUserName>
+<FromUserName><![CDATA[oowPwwXvJfD9ZjMmEMC8J5clyqCQ]]></FromUserName>
+<CreateTime>1496672058</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[dhsjjs]]></Content>
+<MsgId>6428157542365336997</MsgId>
+</xml>@@@dhsjjs\n<xml>
+                <ToUserName><![CDATA[%s]]></ToUserName>
+                <FromUserName><![CDATA[%s]]></FromUserName>
+                <CreateTime>%s</CreateTime>
+                <MsgType><![CDATA[%s]]></MsgType>
+                <Content><![CDATA[%s]]></Content>
+                <FuncFlag>0</FuncFlag>
+                </xml>bbb
